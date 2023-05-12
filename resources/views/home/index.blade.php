@@ -32,7 +32,8 @@
             </div>
 
             <div class="space-y-64">
-                <div class="flex mt-32 justify-center mx-auto w-9/12">
+                <div
+                    class="flex mt-32 justify-center mx-auto w-9/12 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <div class="flex space-x-10">
                         <h1 class="text-3xl font-semibold">01/</h1>
                         <div class="space-y-8">
@@ -47,7 +48,8 @@
                     </div>
 
                 </div>
-                <div class="flex mt-32 justify-center mx-auto w-9/12">
+                <div
+                    class="flex mt-32 justify-center mx-auto w-9/12 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <div class="flex space-x-10">
 
                         <img src="{{ asset('images/assignment.jpg') }}" alt="image" class="rounded-lg" width="40%"
@@ -62,7 +64,8 @@
                     </div>
 
                 </div>
-                <div class="flex mt-32 justify-center mx-auto w-9/12">
+                <div
+                    class="flex mt-32 justify-center mx-auto w-9/12 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <div class="flex space-x-10">
                         <h1 class="text-3xl font-semibold">03/</h1>
                         <div class="space-y-8">
