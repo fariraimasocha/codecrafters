@@ -23,38 +23,60 @@
         </button>
     </div>
 
-    <div class="px-32 justify-center mx-auto tracking-normal ease-in-out duration-700 bg-black">
-        <h1 class="text-white text-7xl font-semibold mt-44">From research to presentation, we can help you every
-            step of the way.</h1>
-    </div>
-
     <div class="w-full justify-center mx-auto px-32 tracking-normal ease-in-out duration-700 bg-black text-white mt-8">
 
-        <div class="flex mt-32 justify-center mx-auto w-9/12">
-            <div class="flex space-x-10">
-                <h1 class="text-3xl font-semibold">01/</h1>
-                <div class="space-y-8">
-                    <h1 class="text-3xl font-semibold">Web Design And Development</h1>
-                    <p class="text-xl">Bring your project to the web with ease. We provide custom web platforms tailored
-                        to your project needs. Contact us today to get started.</p>
-                    <p class="text-xl mt-24 font-semibold">Learn More</p>
-                </div>
-                <img src="{{ asset('images/web development.jpg') }}" alt="image" class="" width="40%"
-                    height="40%">
+        <div class="py-20">
+            <div class="px-16 justify-center mx-auto tracking-normal ease-in-out duration-700">
+                <h1 class="text-white text-7xl font-semibold mt-44">From research to presentation, we can help you every
+                    step of the way.</h1>
             </div>
 
-        </div>
-        <div class="flex mt-32 justify-center mx-auto w-9/12">
-            <div class="flex space-x-10">
-                <h1 class="text-3xl font-semibold">01/</h1>
-                <div class="space-y-8">
-                    <h1 class="text-3xl font-semibold">Web Design And Development</h1>
-                    <p class="text-xl">Bring your project to the web with ease. We provide custom web platforms tailored
-                        to your project needs. Contact us today to get started.</p>
-                    <p class="text-xl mt-24 font-semibold">Learn More</p>
+            <div class="space-y-64">
+                <div class="flex mt-32 justify-center mx-auto w-9/12">
+                    <div class="flex space-x-10">
+                        <h1 class="text-3xl font-semibold">01/</h1>
+                        <div class="space-y-8">
+                            <h1 class="text-3xl font-semibold">Web Design And Development</h1>
+                            <p class="text-xl">Bring your project to the web with ease. We provide custom web platforms
+                                tailored
+                                to your project needs. Contact us today to get started.</p>
+                            <p class="text-xl mt-24 font-semibold">Learn More</p>
+                        </div>
+                        <img src="{{ asset('images/web development.jpg') }}" alt="image" class="rounded-lg"
+                            width="40%" height="40%">
+                    </div>
+
                 </div>
-                <img src="{{ asset('images/web development.jpg') }}" alt="image" class="" width="40%"
-                    height="40%">
+                <div class="flex mt-32 justify-center mx-auto w-9/12">
+                    <div class="flex space-x-10">
+
+                        <img src="{{ asset('images/assignment.jpg') }}" alt="image" class="rounded-lg" width="40%"
+                            height="40%">
+                        <div class="space-y-8">
+                            <h1 class="text-3xl font-semibold">Class Assignments</h1>
+                            <p class="text-xl">Low on budget but high on quality? Our assignment services provide the
+                                perfect balance. Contact us now to learn more</p>
+                            <p class="text-xl mt-24 font-semibold">Learn More</p>
+                        </div>
+                        <h1 class="text-3xl font-semibold">02/</h1>
+                    </div>
+
+                </div>
+                <div class="flex mt-32 justify-center mx-auto w-9/12">
+                    <div class="flex space-x-10">
+                        <h1 class="text-3xl font-semibold">03/</h1>
+                        <div class="space-y-8">
+                            <h1 class="text-3xl font-semibold">Tutoring</h1>
+                            <p class="text-xl">We offer personalized tutoring services to help you succeed in your
+                                studies. Our experienced tutors provide one-on-one support in a variety of courses,
+                                helping you build the skills and confidence you need to excel.</p>
+                            <p class="text-xl mt-24 font-semibold">Learn More</p>
+                        </div>
+                        <img src="{{ asset('images/tutor.jpg') }}" alt="image" class="rounded-lg" width="40%"
+                            height="40%">
+                    </div>
+
+                </div>
             </div>
 
         </div>

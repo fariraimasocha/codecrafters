@@ -1,5 +1,5 @@
 @include('layouts.app')
-<div class="px-10 h-12 justify-center mx-auto flex border-b-2 border-black mt-4">
+<div class="px-10 h-12 justify-center mx-auto flex mt-4">
     <div class="flex">
         <a href="#">
             <img src="{{ asset('images/codecrafters logo.png') }}" alt="logo" width="38%" height="38%">
