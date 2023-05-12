@@ -85,4 +85,9 @@
         </div>
     </div>
 
+    <div class="w-full justify-center mx-auto px-32 tracking-normal ease-in-out duration-700 bg-white text-black mt-8">
+
+        <h1 class=" text-7xl font-semibold py-32">Latest Projects</h1>
+    </div>
+
 </body>
