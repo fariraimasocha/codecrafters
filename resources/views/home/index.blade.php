@@ -86,8 +86,78 @@
     </div>
 
     <div class="w-full justify-center mx-auto px-32 tracking-normal ease-in-out duration-700 bg-white text-black mt-8">
-
         <h1 class=" text-7xl font-semibold py-32">Latest Projects</h1>
+        <div class="py-12">
+            <div
+                class="flex mt-20 justify-center bg-white mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <div class="flex space-x-10">
+                    <img src="{{ asset('images/projects/codecrafters.png') }}" alt="image" width="50%"
+                        height="25%">
+                    <div class="space-y-8">
+                        <h1 class="text-5xl ">CodeCrafters</h1>
+                        <p class="text-xl">Bring your project to the web with ease. We provide custom web platforms
+                            tailored
+                            to your project needs. Contact us today to get started.</p>
+                        <button class="text-black rounded-lg w-44 h-14 ring-2 ring-red-700 mt-14">
+                            Explore Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex mt-20 justify-center bg-white mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <div class="flex space-x-10">
+                    <img src="{{ asset('images/projects/it.png') }}" alt="image" width="50%" height="25%">
+                    <div class="space-y-8">
+                        <h1 class="text-5xl ">IT Helpdesk</h1>
+                        <p class="text-xl">The platform automates ticket assignment, ensuring that each ticket is
+                            assigned to the appropriate support staff based on their expertise or workload. This
+                            eliminates manual routing and ensures that issues are promptly addressed by the most
+                            suitable team member.</p>
+                        <button class="text-black rounded-lg w-44 h-14 ring-2 ring-red-700 mt-14">
+                            Explore Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex mt-20 justify-center bg-white mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <div class="flex space-x-10">
+                    <img src="{{ asset('images/projects/musikacommerce.jpg') }}" alt="image" width="50%"
+                        height="25%">
+                    <div class="space-y-8">
+                        <h1 class="text-5xl ">Musika Ecommerce</h1>
+                        <p class="text-xl">Musika Ecommerce is a dynamic and innovative e-commerce website designed to
+                            cater specifically to music enthusiasts. It provides a seamless online shopping experience
+                            for music-related products, including instruments, accessories, sheet music, and audio
+                            equipment.</p>
+                        <button class="text-black rounded-lg w-44 h-14 ring-2 ring-red-700 mt-14">
+                            Explore Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex mt-20 justify-center bg-white mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <div class="flex space-x-10">
+                    <img src="{{ asset('images/projects/ptracker.png') }}" alt="image" width="50%" height="25%">
+                    <div class="space-y-8">
+                        <h1 class="text-5xl ">Tasktracker</h1>
+                        <p class="text-xl">
+                            TaskTracker is a powerful project management tool designed to streamline task tracking and
+                            progress monitoring within a company. It provides a comprehensive and centralized platform
+                            for teams to effectively collaborate, communicate, and stay organized.</p>
+                        <button class="text-black rounded-lg w-44 h-14 ring-2 ring-red-700 mt-14">
+                            Explore Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <footer class="w-full h-32">
+
+    </footer>
 
 </body>
