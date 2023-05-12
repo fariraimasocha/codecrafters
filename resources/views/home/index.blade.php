@@ -28,18 +28,30 @@
             step of the way.</h1>
     </div>
 
-    <div class="w-full justify-center mx-auto px-32 tracking-normal ease-in-out duration-700 bg-black flex text-white">
+    <div class="w-full justify-center mx-auto px-32 tracking-normal ease-in-out duration-700 bg-black text-white mt-8">
 
         <div class="flex mt-32 justify-center mx-auto w-9/12">
             <div class="flex space-x-10">
                 <h1 class="text-3xl font-semibold">01/</h1>
                 <div class="space-y-8">
                     <h1 class="text-3xl font-semibold">Web Design And Development</h1>
-                    <p class="w-5/12 text-xl">Stunning, unique and with cutting edge design,
-                        your site will stand out amongst the crowd
-                        and bring in
-                        that
-                        dream flood of customers.</p>
+                    <p class="text-xl">Bring your project to the web with ease. We provide custom web platforms tailored
+                        to your project needs. Contact us today to get started.</p>
+                    <p class="text-xl mt-24 font-semibold">Learn More</p>
+                </div>
+                <img src="{{ asset('images/web development.jpg') }}" alt="image" class="" width="40%"
+                    height="40%">
+            </div>
+
+        </div>
+        <div class="flex mt-32 justify-center mx-auto w-9/12">
+            <div class="flex space-x-10">
+                <h1 class="text-3xl font-semibold">01/</h1>
+                <div class="space-y-8">
+                    <h1 class="text-3xl font-semibold">Web Design And Development</h1>
+                    <p class="text-xl">Bring your project to the web with ease. We provide custom web platforms tailored
+                        to your project needs. Contact us today to get started.</p>
+                    <p class="text-xl mt-24 font-semibold">Learn More</p>
                 </div>
                 <img src="{{ asset('images/web development.jpg') }}" alt="image" class="" width="40%"
                     height="40%">
