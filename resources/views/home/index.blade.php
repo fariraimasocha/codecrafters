@@ -41,7 +41,8 @@
                         that
                         dream flood of customers.</p>
                 </div>
-                <img src="{{ asset('images/') }}" alt="image" class="">
+                <img src="{{ asset('images/web development.jpg') }}" alt="image" class="" width="40%"
+                    height="40%">
             </div>
 
         </div>
