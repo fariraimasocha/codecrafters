@@ -86,8 +86,39 @@
     </div>
 
     <div class="w-full justify-center mx-auto px-32 tracking-normal ease-in-out duration-700 bg-white text-black mt-8">
-
         <h1 class=" text-7xl font-semibold py-32">Latest Projects</h1>
+        <div class="py-12">
+            <div
+                class="flex mt-20 justify-center bg-white mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <div class="flex space-x-10">
+                    <img src="{{ asset('images/web development.jpg') }}" alt="image" width="50%" height="25%">
+                    <div class="space-y-8">
+                        <h1 class="text-5xl ">CodeCrafters</h1>
+                        <p class="text-xl">Bring your project to the web with ease. We provide custom web platforms
+                            tailored
+                            to your project needs. Contact us today to get started.</p>
+                        <button class="text-black rounded-lg w-44 h-14 ring-2 ring-red-700 mt-14">
+                            Explore Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex mt-20 justify-center bg-white mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <div class="flex space-x-10">
+                    <img src="{{ asset('images/web development.jpg') }}" alt="image" width="50%" height="25%">
+                    <div class="space-y-8">
+                        <h1 class="text-5xl ">CodeCrafters</h1>
+                        <p class="text-xl">Bring your project to the web with ease. We provide custom web platforms
+                            tailored
+                            to your project needs. Contact us today to get started.</p>
+                        <button class="text-black rounded-lg w-44 h-14 ring-2 ring-red-700 mt-14">
+                            Explore Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
