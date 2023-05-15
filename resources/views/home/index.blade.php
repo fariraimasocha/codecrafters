@@ -46,7 +46,6 @@
                         <img src="{{ asset('images/web development.jpg') }}" alt="image" class="rounded-lg"
                             width="40%" height="40%">
                     </div>
-
                 </div>
                 <div
                     class="flex mt-32 justify-center mx-auto w-9/12 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
@@ -62,7 +61,6 @@
                         </div>
                         <h1 class="text-3xl font-semibold">02/</h1>
                     </div>
-
                 </div>
                 <div
                     class="flex mt-32 justify-center mx-auto w-9/12 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
@@ -78,13 +76,10 @@
                         <img src="{{ asset('images/tutor.jpg') }}" alt="image" class="rounded-lg" width="40%"
                             height="40%">
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
-
     <div class="w-full justify-center mx-auto px-32 tracking-normal ease-in-out duration-700 bg-white text-black mt-8">
         <h1 class=" text-7xl font-semibold py-32">Latest Projects</h1>
         <div class="py-12">
@@ -156,7 +151,15 @@
         </div>
     </div>
 
-    <footer class="w-full h-32">
+    <div class="py-5 bg-black">
+        <h1 class="text-white text-7xl font-bold mt-44 py-5 px-24 mb-20">Do you require assistance with a school
+            project?
+            Allow us to relieve you of your burden.</h1>
+        <img src="{{ asset('images/code.png') }}" class="py-20">
+
+    </div>
+
+    <footer class="w-full h-32 bg-white">
 
     </footer>
 
